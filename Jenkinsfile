@@ -13,7 +13,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'gcc hello.cpp -o output'
+                sh 'g++ hello.cpp -o output'
             }
         }
 
